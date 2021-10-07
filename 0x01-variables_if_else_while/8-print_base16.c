@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - prints out all the numbers under 10 with a ,
+ * main - prints out all the numbers of base 16 in lowercase
  * Return: 0
  */
 int main(void)
@@ -8,14 +9,9 @@ int main(void)
 	int i;
 
 	for (i = 48; i < 58; i++)
-	{
 		putchar(i);
-		if (i != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
+	for (i = 'a'; i <= 'f'; i++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
