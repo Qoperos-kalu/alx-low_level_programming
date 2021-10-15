@@ -8,7 +8,7 @@ int x;
 for (x =0; x < 10; x++)
 {
 char n = 'a';
-while( n <= 'z')
+while (n <= 'z')
 {
 _putchar(n);
 n++;
